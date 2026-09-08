@@ -1,6 +1,7 @@
 from django.urls import path
-from .views import dashboard_view
+from . import views
 
 urlpatterns = [
-    path('', dashboard_view, name='dashboard'),
+    path('', views.signup_view, name='signup'),            # Root of accounts app
+    path('dashboard/', views.dashboard_view, name='dashboard'),
 ]
