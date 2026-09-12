@@ -2,7 +2,8 @@
 
 ## About
 
-UserHub is a Django-based web application for account management and registration.  
+UserHub is a django based web application designed to securely capture, validate, and display registration data. It integrates Regular Expressions for precise input validation and utilizes the Web Crypto API to implement SHA-256 password hashing prior to data persistence via browser local storage. This application features a dynamic administrative dashboard that organizes user credentials in a structured tabular format, complete with record management capabilities. 
+
 ## Tech Stack
 
 - Language: Python 3.10+
